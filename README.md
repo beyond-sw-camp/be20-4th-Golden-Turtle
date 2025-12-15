@@ -29,19 +29,19 @@
 </tr>
 <tr>
 <td align="center">
-    <img width="250" height="180" alt="Image" src="https://github.com/user-attachments/assets/67c7ae60-cf5d-4bba-ab9d-f310aee6afae" />
+    <img width="250" height="180" alt="Image" src="image/USER/강성현.png" />
 </td>
 <td align="center">
-    <img width="250" height="180" alt="Image" src="https://github.com/user-attachments/assets/0f25897c-e89a-48a1-b1a4-cf050d0eb5ea" />
+    <img width="250" height="180" alt="Image" src="image/USER/김진.png" />
 </td>
 <td align="center">
-    <img width="250" height="180" alt="Image" src="https://github.com/user-attachments/assets/70016cc3-8f29-4426-8b7a-9cff4640a9fe" />
+    <img width="250" height="180" alt="Image" src="image/USER/박규진.png" />
 </td>
 <td align="center">
-    <img width="250" height="180" alt="Image" src="https://github.com/user-attachments/assets/add97120-cc0d-44fb-a17e-65239acc1f77" />
+    <img width="250" height="180" alt="Image" src="image/USER/정동욱.png" />
 </td>
 <td align="center">
-    <img width="250" height="180" alt="image" src="https://github.com/user-attachments/assets/2cd16654-0413-4829-9ec3-c47493d55736" />
+    <img width="250" height="180" alt="image" src="image/USER/최지원.png" />
 
 </td>
 </tr>
@@ -252,7 +252,7 @@ Golden-Turtle-Frontend
 
 <details> 
 <summary> 요구사항 명세서 이미지</summary>
-<img width="926" height="448" alt="Image" src="https://github.com/user-attachments/assets/e8fb01a1-b833-4da1-be22-277afda5de6b" />
+<img width="926" height="448" alt="Image" src="image/PROJECT/요구사항명세서.png" />
 </details>
 <br>
 
@@ -260,7 +260,7 @@ Golden-Turtle-Frontend
 
 <details> 
 <summary> ERD 이미지</summary>
-<img width="1760" height="962" alt="Image" src="https://github.com/user-attachments/assets/b5186d6b-c368-4caf-9f11-48f04b84db85" />
+<img width="1760" height="962" alt="Image" src="image/PROJECT/ERD.png" />
 </details>
 
 <br>
@@ -268,9 +268,9 @@ Golden-Turtle-Frontend
 ### 4. **API 명세서**
 <details> 
 <summary> Swaqqer UI 이미지 </summary>
-    <img width="492" height="698" alt="image" src="https://github.com/user-attachments/assets/e36ec5e9-0da0-49f0-890f-ea813dc1f8dd" />
-    <img width="491" height="698" alt="image" src="https://github.com/user-attachments/assets/4bf37936-fa75-40b4-acfb-22920de6dfa9" />
-    <img width="495" height="177" alt="image" src="https://github.com/user-attachments/assets/cd436eec-2208-4c39-a19f-828fe1737811" />
+    <img width="492" height="698" alt="image" src="image/PROJECT/API 1.png" />
+    <img width="491" height="698" alt="image" src="image/PROJECT/API 2.png" />
+    <img width="495" height="177" alt="image" src="image/PROJECT/API 3.png" />
 </details>
 
 ### 5. **FIGMA**
@@ -287,31 +287,31 @@ FIGMA 바로가기 [여기](https://www.figma.com/design/mEtAMkg9PCEV5wRXPM7Ogq/
 <summary> GIF </summary>
     
 회원가입
-    ![Image](https://github.com/user-attachments/assets/711d685f-7be4-4c1f-8c99-9fdb537b5548)
+    ![Image](image/gif/회원가입.gif)
 
 비밀번호 찾기
-    ![Image](https://github.com/user-attachments/assets/c8832ebe-93ea-4b02-bc7d-fcfec7dd5bf2)
+    ![Image](image/gif/비밀번호찾기.gif)
 
 로그인
-    ![Image](https://github.com/user-attachments/assets/5137035e-7d9e-4b8d-8f39-345dc8877176)
+    ![Image](image/gif/로그인.gif)
 
 마이페이지
-    ![Image](https://github.com/user-attachments/assets/5db4a85f-f65d-4a00-8cf7-42fa8693c15a)
+    ![Image](image/gif/마이페이지.gif)
 
 게임 시작 후 매수 및 매도 후 종료
-    ![Image](https://github.com/user-attachments/assets/bd3bd9c7-69c6-46e6-a438-ee9c0c3cf3c8)
+    ![Image](image/gif/시작 종료.gif)
 
 게임 진행 중 나의 포토폴리오 조회
-    ![Image](https://github.com/user-attachments/assets/8ee1228e-61a0-4fca-833b-c7e75f499b08)
+    ![Image](image/gif/포토폴리오.gif)
 
 게임 진행 후 나의 과거 기록 조회
-    ![Image](https://github.com/user-attachments/assets/4a094aaf-5dd2-4799-962c-00301d35d406)
+    ![Image](image/gif/기록 조회.gif)
 
 관리자페이지 (종목추가)
-    ![Image](https://github.com/user-attachments/assets/088b2337-c455-4ecc-9f99-de4524b10dc0)
+    ![Image](image/gif/관리자페이지.gif)
 
 로그아웃
-    ![Image](https://github.com/user-attachments/assets/24d5d862-cf0e-46b4-8a6c-c9835fbcd1de)
+    ![Image](image/gif/로그아웃.gif)
 
 
     
@@ -325,7 +325,7 @@ GUMMA PPT 바로가기 [여기](https://gamma.app/docs/-cqgiskvr2jkfztx)에서 �
 ## ⚙️ **7. CI/CD 구축 및 배포 자동화**
 
 🛜 CI/CD 프로젝트 아키텍처
-<img width="1221" height="632" alt="image" src="https://github.com/user-attachments/assets/d29da93d-bbe5-42d7-8ac8-f7e57ad241d6" />
+<img width="1221" height="632" alt="image" src="image/PROJECT/CICD.png" />
 
 
 📱 CI/CD 테스트
