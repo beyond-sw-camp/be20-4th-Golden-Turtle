@@ -1,7 +1,7 @@
 # 🪙 **Golden Turtle**
 
 <div align="center">
-<img width="600" height="600" alt="Image" src="https://github.com/user-attachments/assets/985315f6-a0f2-4d6d-a8c8-782bc69132fc" />
+<img width="600" height="600" alt="Image" src="image/거북이 로고.png" />
 </div>
 
 **Golden Turtle** 사용자는 **회원가입 후 ‘시작’ 버튼을 누르면 모의 투자 장에 입장**하게 되며,
