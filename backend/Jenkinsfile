@@ -1,0 +1,83 @@
+// Jenkinsfile
+
+pipeline {
+    agent any
+
+    environment {
+        // To be specified : Docker image name
+        IMAGE_NAME = "golden-turtle:latest"
+
+        // Jenkins > Manage Credentials Docker Registry password ID
+        DOCKER_PASSWORD = credentials('docker-password')
+
+        // Docker Registry username
+        DOCKER_USERNAME = "jiwonchoi0"
+    }
+
+    stages {
+
+        stage('Checkout') {
+            steps {
+                checkout scm
+            }
+        }
+
+        stage('Docker Build') {
+            // Execute only if Dockerfile exists
+            when {
+                expression { fileExists('backend/Dockerfile') }
+            }
+            steps {
+                powershell '''
+                    docker build -t ${IMAGE_NAME} .
+                '''
+            }
+        }
+
+        stage('Docker Push') {
+            // Execute only if Dockerfile exists
+            when {
+                expression { fileExists('backend/Dockerfile') }
+            }
+            steps {
+                powershell '''
+                    $env:DOCKER_PASSWORD | docker login -u ${DOCKER_USERNAME} --password-stdin
+
+                    docker push ${IMAGE_NAME}
+                '''
+            }
+        }
+
+        stage('Deploy to Kubernetes') {
+            // Execute only if k8s manifest exists
+            when {
+                expression { fileExists('backend/k8s/gt_backend-dep.yml') }
+            }
+            steps {
+                powershell '''
+                    // Jenkins node kubectl and context configuration required
+
+                    kubectl apply -f k8s/
+                '''
+            }
+        }
+    }
+
+    post {
+        success {
+            echo "CI/CD successful"
+        }
+
+        failure {
+            echo "CI/CD failed"
+        }
+
+        always {
+            script {
+                if (env.WORKSPACE) {
+                    cleanWs()
+                }
+            }
+        }
+    }
+}
