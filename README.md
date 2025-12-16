@@ -273,6 +273,7 @@ Golden-Turtle-Frontend
     <img width="495" height="177" alt="image" src="image/PROJECT/API 3.png" />
 </details>
 
+
 ### 5. **FIGMA**
 FIGMA 바로가기 [여기](https://www.figma.com/design/mEtAMkg9PCEV5wRXPM7Ogq/GOLD?node-id=0-1&t=U5aUd94NJQIHN4xX-1)에서 확인하실 수 있습니다.
 
